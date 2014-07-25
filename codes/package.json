@@ -1,0 +1,11 @@
+{
+	"name": "bentbt",
+	"version": "",
+	"author": "ddelphi",
+	"dependencies": {
+		"lodash": "*",
+		"js-yaml": "*"
+	},
+	"devDependencies": {
+	}
+}
