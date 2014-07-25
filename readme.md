@@ -11,6 +11,8 @@ The code is only tested in windows XP, not tested in other operation system.
 
 You should have the Node.js installed.
 
+And, you should run the install.cmd command file which in the codes folder, to install the required libraries.
+
 ## using GUI
 
 There is an `interface.cmd` file under the root of the script folder. That is the simple GUI for quick using the functions of the script.
@@ -40,7 +42,7 @@ Multi files conversion can be executed by:
 
 You can drag the torrent file to the executable `cmd` file, to execute the method.
 
-The insertion method will insert a word between every charactor. The hex method will convert the information text into utf8 hex format.
+The insertion method will insert a word between every character. The hex method will convert the information text into utf8 hex format.
 
 #### advanced usage
 
@@ -63,7 +65,7 @@ The `every` part means the insertion word will be inserted in the information by
 
 The `insWord` part means the insertion word that you want.
 
-The 'keyword' part means that what parts of information in torrent file you want to change. You should treat the value of those strings as the string from of regular expression. For example 'info.name' means that we want to change the info.name part of the infomation.
+The `keyword` part means that what parts of information in torrent file you want to change. You should treat the value of those strings as the string from of regular expression. For example `info.name` means that we want to change the info.name part of the infomation.
 
 You can use the "include" form or "exclude" form or both in the `keyword` part. Leave out the "include" form will include all by default, and leave out the "exclude" form will exclude none by default.
 
